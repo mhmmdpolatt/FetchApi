@@ -1,0 +1,118 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #3d1210;
+    overflow: hidden;
+}
+
+.container {
+    /* background: linear-gradient(to bottom,   rgb(0, 0, 0), rgb(218, 236, 241)); */
+    
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    height: 90vh;
+    overflow: hidden;
+    
+    position: absolute;
+
+    left: 50%;
+    transform: translate(-50%);
+    border: 1px solid wheat;
+
+
+}
+
+h3 {
+    font-size: 1.9rem;
+    font-family: inherit;
+    color: #d3924f;
+    text-decoration: wavy;
+    position: relative;
+    top: 0;
+    border-bottom: 1px solid #d3924f;
+}
+
+label {
+    margin: 8px;
+    color: #d3924f;
+    font-size: 16px;
+    border-bottom: 1px solid #d3924f;
+
+}
+
+input {
+    width: 60%;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#sonuc {
+    /* max-height: 400px;  */
+    /* Liste maksimum yüksekliği */
+    height: 30%;
+    overflow-y: auto;
+    /* Dikey scrollbar'ı otomatik olarak görüntüle */
+
+    background-color: #9a5a39;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 18px;
+    padding: 15px;
+    list-style: decimal;
+
+}
+
+.deyimler {
+    margin-left: 12px;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    margin-bottom: 4px;
+    color: white;
+}
+
+.son {
+   
+    text-align: center;
+    height: 100px;
+    width: 450px;
+    overflow-y: auto;
+    margin-bottom: 80px;
+    background-color: #9a5a39;
+    padding: 8px;
+
+
+}
+
+.son li {
+    list-style: decimal;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-bottom: 15px;
+    
+
+
+
+}
+
+ h5{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #9a5a39;border-bottom:1px solid #d3924f;
+}
+
+.form {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
